@@ -64,19 +64,19 @@ const CaseEvaluationForm = () => {
         <div>
           <Label htmlFor="firstName">First Name *</Label>
           <Input id="firstName" value={formData.firstName} onChange={(e) => setFormData({ ...formData, firstName: e.target.value })} className={errors.firstName ? 'border-danger' : ''} aria-describedby={errors.firstName ? 'firstName-error' : undefined} />
-          {errors.firstName && <p id="firstName-error" className="text-danger text-sm mt-1">{errors.firstName}</p>}
+          {errors.firstName && <p id="firstName-error\" className="text-danger text-sm mt-1">{errors.firstName}</p>}
         </div>
         <div>
           <Label htmlFor="lastName">Last Name *</Label>
           <Input id="lastName" value={formData.lastName} onChange={(e) => setFormData({ ...formData, lastName: e.target.value })} className={errors.lastName ? 'border-danger' : ''} aria-describedby={errors.lastName ? 'lastName-error' : undefined} />
-          {errors.lastName && <p id="lastName-error" className="text-danger text-sm mt-1">{errors.lastName}</p>}
+          {errors.lastName && <p id="lastName-error\" className="text-danger text-sm mt-1">{errors.lastName}</p>}
         </div>
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div>
           <Label htmlFor="phone">Phone Number *</Label>
           <Input id="phone" type="tel" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className={errors.phone ? 'border-danger' : ''} aria-describedby={errors.phone ? 'phone-error' : undefined} />
-          {errors.phone && <p id="phone-error" className="text-danger text-sm mt-1">{errors.phone}</p>}
+          {errors.phone && <p id="phone-error\" className="text-danger text-sm mt-1">{errors.phone}</p>}
         </div>
 
         <div>
