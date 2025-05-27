@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 import { Scale, FileText, Building, Gavel, Landmark, Handshake, Shield, BookOpen, Briefcase, Home, Users, HeartPulse, Globe, Clock } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
